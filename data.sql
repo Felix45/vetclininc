@@ -33,8 +33,8 @@ INSERT INTO owners(full_name,age) VALUES('Jodie Whittaker', 38);
 
 ----- Project three Species data inserts -----
 
-INSERT INTO species VALUES('Pokemon');
-INSERT INTO species VALUES('Digimon');
+INSERT INTO species(name) VALUES('Pokemon');
+INSERT INTO species(name) VALUES('Digimon');
 
 ----- Project three Update species in animals table -----
 
