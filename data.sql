@@ -58,7 +58,7 @@ INSERT INTO vets(name,age,date_of_graduation) VALUES('Jack Harkness', 38, '2008-
 
 
 ------ Insert data for visits in database ------
-
+----- Agumon visits William Tatcher on 2020-05-24 -------
 INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   (
     SELECT id
@@ -74,6 +74,7 @@ INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   '2020-05-24' 
 );
 
+----- Agumon visits Stephanie Mendez on 2020-07-22 -----
 INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   (
     SELECT id
@@ -89,6 +90,7 @@ INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   '2020-07-22' 
 );
 
+----- Gabumon visits Jack Harkness on 2021-02-02 ------
 INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   (
     SELECT id
@@ -104,6 +106,7 @@ INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   '2021-02-02' 
 );
 
+----- Pikachu visits Maisy Smith on 2020-05-01 ------
 INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   (
     SELECT id
@@ -119,6 +122,7 @@ INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   '2020-05-01' 
 );
 
+----- Pikachu visits Maisy Smith on 2020-03-08 -----
 INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   (
     SELECT id
@@ -134,6 +138,7 @@ INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   '2020-03-08' 
 );
 
+----- Pikachu visits Maisy Smith on 2020-03-14 -------
 INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   (
     SELECT id
@@ -149,6 +154,7 @@ INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   '2020-03-14' 
 );
 
+----- Devimon visits Stephanie Mendez on 2021-05-04 ------
 INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   (
     SELECT id
@@ -164,6 +170,7 @@ INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   '2021-05-04' 
 );
 
+----- Charmander visits Jack Harkness on 2021-02-24 --------
 INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   (
     SELECT id
@@ -179,6 +186,7 @@ INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   '2021-02-24' 
 );
 
+----- Plantmon visits Maisy Smith on 2019-12-21 ------
 INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   (
     SELECT id
@@ -194,6 +202,7 @@ INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   '2019-12-21' 
 );
 
+------ Plantmon visits William Tatcher on 2020-08-10 ------
 INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   (
     SELECT id
@@ -209,6 +218,7 @@ INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   '2020-08-10' 
 );
 
+------ Plantmon visits Maisy Smith on 2021-04-07 -------
 INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   (
     SELECT id
@@ -224,6 +234,7 @@ INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   '2021-04-07' 
 );
 
+------ Squirtle visits Stephanie Mendez on 2019-09-29 ------
 INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   (
     SELECT id
@@ -239,6 +250,7 @@ INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   '2019-09-29' 
 );
 
+------- Angemon visits Jack Harkness on 2020-10-03 -------
 INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   (
     SELECT id
@@ -254,7 +266,7 @@ INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   '2020-10-03' 
 );
 
-
+----- Angemon visits Jack Harkness on 2020-11-04 ------
 INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   (
     SELECT id
@@ -270,6 +282,7 @@ INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   '2020-11-04' 
 );
 
+----- Boarmon visits Maisy Smith on 2019-01-24 -------
 INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   (
     SELECT id
@@ -285,6 +298,7 @@ INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   '2019-01-24' 
 );
 
+----- Boarmon visits Maisy Smith on 2019-05-15 ------
 INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   (
     SELECT id
@@ -300,7 +314,7 @@ INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   '2019-05-15' 
 );
 
-
+------ Boarmon visits Maisy Smith on 2020-02-27 ----
 INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   (
     SELECT id
@@ -316,7 +330,7 @@ INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   '2020-02-27' 
 );
 
-
+----- Boarmon visits Maisy Smith on 2020-08-03 ------
 INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   (
     SELECT id
@@ -332,6 +346,7 @@ INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   '2020-08-03' 
 );
 
+----- Blossom visits Stephanie Mendez ----
 INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   (
     SELECT id
@@ -347,7 +362,7 @@ INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   '2020-05-24' 
 );
 
-
+---- Blossom visits William Tatcher ---
 INSERT INTO visits(animals_id, vets_id, date_of_visit) VALUES (
   (
     SELECT id
