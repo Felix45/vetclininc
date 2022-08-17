@@ -22,9 +22,9 @@ CREATE TABLE invoices(
   id SERIAL PRIMARY KEY,
   total_amount DECIMAL(5, 2),
   generated_at TIMESTAMP NOT NULL,
-  payed_time TIMESTAMP NOT NULL,
+  payed_at TIMESTAMP NOT NULL,
   medical_history_id INT NOT NULL,
-  CONSTRAINT fk_invoice_constraint FOREIGN KEY(medical_history_id) REFERENCES invoices(id)
+  CONSTRAINT fk_invoice_constraint FOREIGN KEY(medical_history_id) REFERENCES medical_histories(id)
 );
 
 ----- treatments table -----
@@ -62,3 +62,6 @@ CREATE INDEX idx_medical_history_invoices_id ON invoices(medical_history_id);
 
 CREATE INDEX idx_invoice_items_invoices_id ON invoice_items(invoice_id);
 CREATE INDEX idx_invoice_items_treatment_id ON invoice_items(treatment_id);
+
+CREATE INDEX idx_medical_histories_treatment_history_id ON medical_histories_treatments(history_id);
+CREATE INDEX idx_medical_histories_treatment_treatment_id ON medical_histories_treatments(treatment_id);
