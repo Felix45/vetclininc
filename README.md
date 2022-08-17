@@ -3,6 +3,11 @@
 > Vet Clinic is a relational database management web based application that tracks information about animals, their clinic visits and the details of the clinics employees who attended to them.
 
 
+# Schema Diagram
+
+![](images/shema_erd.png)
+
+
 ## Getting Started
 
 This repository includes files with plain SQL that can be used to recreate the vet clinic database:
